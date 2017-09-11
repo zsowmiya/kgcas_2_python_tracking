@@ -1,65 +1,188 @@
-<form class="form-horizontal">
-<fieldset>
-
+<html>
+<center>
 <!-- Form Name -->
-<legend>Source address</legend>
+<legend>Form Name</legend>
 
-<!-- Select Basic -->
+<!-- Text input-->
 <div class="form-group">
-  
-  <label class="col-md-4 control-label" for="City">city name</label>
-  <div class="col-md-5">
-    <select id="Country" name="Country" class="form-control">
-      <option value="IR">IR Iran</option>
-      <option value="USA">United States</option>
-    </select>
+  <label class="col-md-4 control-label" for="fn">First name</label>  
+  <div class="col-md-4">
+  <input id="fn" name="fn" type="text" placeholder="first name" class="form-control input-md" required="">
+    
   </div>
 </div>
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="State">State</label>  
-  <div class="col-md-6">
-  <input id="State" name="State" type="text" placeholder="state" class="form-control input-md" required="">
-  <span class="help-block">Enter Source state</span>  
+  <label class="col-md-4 control-label" for="ln">Last name</label>  
+  <div class="col-md-4">
+  <input id="ln" name="ln" type="text" placeholder="last name" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="cmpny">Company</label>  
+  <div class="col-md-4">
+  <input id="cmpny" name="cmpny" type="text" placeholder="company" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="email">Email</label>  
+  <div class="col-md-4">
+  <input id="email" name="email" type="text" placeholder="email" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="add1">Address 1</label>  
+  <div class="col-md-4">
+  <input id="add1" name="add1" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="add2">Address 2</label>  
+  <div class="col-md-4">
+  <input id="add2" name="add2" type="text" placeholder="" class="form-control input-md">
+    
   </div>
 </div>
 
 <!-- Text input-->
 <div class="form-group">
   <label class="col-md-4 control-label" for="city">City</label>  
-  <div class="col-md-6">
-  <input id="city" name="city" type="text" placeholder="city or town" class="form-control input-md" required="">
-    
-  </div>
-</div>
-
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="address1">Address Line1</label>  
-  <div class="col-md-8">
-  <input id="address1" name="address1" type="text" placeholder="" class="form-control input-md">
-  <span class="help-block">Street address, P.O. box, company name, c/o</span>  
-  </div>
-</div>
-
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="Address2">Address Line2</label>  
-  <div class="col-md-8">
-  <input id="Address2" name="Address2" type="text" placeholder="" class="form-control input-md">
-  <span class="help-block">Apartment, suite , unit, building, floor, etc.</span>  
-  </div>
-</div>
-
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="zip">Zip/Postal code</label>  
   <div class="col-md-4">
-  <input id="zip" name="zip" type="text" placeholder="zip or postal code" class="form-control input-md" required="">
+  <input id="city" name="city" type="text" placeholder="city" class="form-control input-md" required="">
     
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="zip">Zip Code</label>  
+  <div class="col-md-4">
+  <input id="zip" name="zip" type="text" placeholder="Zip Code" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="ctry">Country</label>  
+  <div class="col-md-4">
+  <input id="ctry" name="ctry" type="text" placeholder="Country" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="phone">Text InputPhone</label>  
+  <div class="col-md-4">
+  <input id="phone" name="phone" type="text" placeholder="Phone#" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Multiple Radios (inline) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Training"></label>
+  <div class="col-md-4"> 
+    <label class="radio-inline" for="Training-0">
+      <input type="radio" name="Training" id="Training-0" value="yes" checked="checked">
+      Yes
+    </label> 
+    <label class="radio-inline" for="Training-1">
+      <input type="radio" name="Training" id="Training-1" value="no">
+      No
+    </label>
+  </div>
+</div>
+
+<!-- Multiple Radios (inline) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Networking_Reception"></label>
+  <div class="col-md-4"> 
+    <label class="radio-inline" for="Networking_Reception-0">
+      <input type="radio" name="Networking_Reception" id="Networking_Reception-0" value="meet_yes" checked="checked">
+      Yes
+    </label> 
+    <label class="radio-inline" for="Networking_Reception-1">
+      <input type="radio" name="Networking_Reception" id="Networking_Reception-1" value="meet_no">
+      No
+    </label>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasic">Select Basic</label>
+  <div class="col-md-4">
+    <select id="selectbasic" name="selectbasic" class="form-control input-md">
+      <option>Option one</option>
+      <option>Option two</option>
+    </select>
+  </div>
+</div>
+
+
+<!-- Multiple Radios (inline) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Dinner"></label>
+  <div class="col-md-4"> 
+    <label class="radio-inline" for="Dinner-0">
+      <input type="radio" name="Dinner" id="Dinner-0" value="dinner_yes" checked="checked">
+      Yes
+    </label> 
+    <label class="radio-inline" for="Dinner-1">
+      <input type="radio" name="Dinner" id="Dinner-1" value="dinner_no">
+      No
+    </label>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="submit"></label>
+  <div class="col-md-4">
+   <button type="button" class="btn btn-primary">Submit</button>
   </div>
 </div>
 
 </fieldset>
 </form>
+</center>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
